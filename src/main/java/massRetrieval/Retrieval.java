@@ -85,7 +85,6 @@ public class Retrieval {
 					query, fields, searchparams);
 			
 			if(candidateList.getCount()!=0){
-				System.out.println(mapper.writeValueAsString(candidateList.getData()));
 				Matcher m = p.matcher(mapper.writeValueAsString(candidateList.getData()));
 				
 				while(m.find()){
@@ -118,7 +117,6 @@ case "ClientContact":{
 					query, fields, searchparams);
 			
 			if(contactList.getCount()!=0){
-				System.out.println(mapper.writeValueAsString(contactList.getData()));
 				Matcher m = p.matcher(mapper.writeValueAsString(contactList.getData()));
 				
 				while(m.find()){
