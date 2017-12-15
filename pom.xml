@@ -5,7 +5,7 @@
 
     <groupId>com.bullhorn</groupId>
     <artifactId>sdk-rest</artifactId>
-    <version>1.2.10</version>
+    <version>1.2.11</version>
     <packaging>jar</packaging>
 
     <name>Bullhorn REST SDK</name>
@@ -13,7 +13,7 @@
         objects for the API itself and all domain objects. It is typically used for integrating or customizing the
         BULLHORN CRM platform.
     </description>
-    <url>https://github.com/bullhorn/sdk-rest</url>
+    <url>https://github.com/kvnfrederiksen/massRetrieval</url>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -31,9 +31,9 @@
     </developers>
 
     <scm>
-        <connection>https://github.com/bullhorn/sdk-rest.git</connection>
-        <developerConnection>https://github.com/bullhorn/sdk-rest.git</developerConnection>
-        <url>https://github.com/bullhorn/sdk-rest</url>
+        <connection>https://github.com/kvnfrederiksen/massRetrieval.git</connection>
+        <developerConnection>https://github.com/kvnfrederiksen/massRetrieval.git</developerConnection>
+        <url>https://github.com/kvnfrederiksen/massRetrieval</url>
     </scm>
 
     <properties>
